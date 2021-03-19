@@ -8,6 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@bifrost-finance/api": "^1.0.98",
+    "@polkadot/api": "^4.1.1",
+    "@polkadot/extension-dapp": "^0.37.2",
+    "@polkadot/ui-keyring": "^0.72.1",
+    "@polkadot/ui-settings": "^0.72.1",
+    "@polkadot/vue-identicon": "^0.72.1",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
