@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Bifrost />
+  <Home />
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Bifrost from './components/Bifrost.vue'
+import Home from './components/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    Bifrost
+    Home
   }
 }
 </script>
