@@ -20,9 +20,11 @@ import {
   //   web3UseRpcProvider,
 } from "@polkadot/extension-dapp";
 
-let address;
+
 export default {
   data: function () {
+    let address;
+    let name;
     return {
       address,
       name
